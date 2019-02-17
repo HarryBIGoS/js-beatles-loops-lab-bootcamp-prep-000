@@ -43,7 +43,7 @@ function iLoveTheBeatles(number) {
   do {
     array.push("I love the Beatles!");
   }
-  while (array.length < number.length);
+  while (array.length <= number.length);
   i++;
 return array;
 }
