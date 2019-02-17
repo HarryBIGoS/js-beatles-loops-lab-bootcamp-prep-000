@@ -39,7 +39,7 @@ var i = 0;
 
 function iLoveTheBeatles(number) {
   var array = [];
-  var i = 1;
+  var i = i + 1;
   do {
     array.push("I love the Beatles!");
   }
