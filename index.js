@@ -39,11 +39,11 @@ var i = 0;
 
 function iLoveTheBeatles(number) {
   var array = [];
-  var i = i + 1;
+  var i = 0;
   do {
     array.push("I love the Beatles!");
   }
-  while (array.length == number.length);
+  while (array.length == number.length + 1);
   i++;
 return array;
 }
